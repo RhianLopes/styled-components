@@ -16,4 +16,23 @@ Para começar a usar o [styled-components](https://styled-components.com/), vamo
 $ npx create-react-app styled-components
 ```
 
-Feito isso, seu projeto react já foi criado, mas para seguir as
+Feito isso, seu projeto react já foi criado, mas para seguir as recomendações do [styled-components](https://styled-components.com/), vamos instalar em nosso projeto, um [plugin de componentes estilizados](https://github.com/styled-components/babel-plugin-styled-components) do [Babel](https://babeljs.io/). Para isso você deve:
+
+Entrar no projeto criado
+
+```
+$ cd styled-components/
+```
+
+Rodar o comando de instalação do plugin
+
+```
+$ npm install --save-dev babel-plugin-styled-components
+```
+
+Pronto! Seu projeto está pronto para ser iniciado! Para isto, basta rodar:
+
+```
+$ npm start
+```
+
