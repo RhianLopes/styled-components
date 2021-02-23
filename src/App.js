@@ -1,25 +1,40 @@
-import styled from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components'
+import { SumiButton } from './components'
 
-const Button = styled.button`
-  background: transparent;
-  border-radius: 3px;
-  border: 2px solid palevioletred;
-  color: palevioletred;
-  margin: 0.5em 1em;
-  padding: 0.25em 1em;
-`;
-
+// estilização de componente div
 const Container = styled.div`
   margin-top: 300px;
   text-align: center;
 `
 
+// estilizando um componente já estilizado
+const ButtonApp = styled(SumiButton)`
+    position: absolute;
+    color: black;
+`
+
+const GlobalStyle = createGlobalStyle`
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    color: brown;
+    margin-top: 200px;
+  }
+`;
+
 function App() {
   return (
-    <Container>
-      <Button>Normal Button</Button>
-      <Button primary>Primary Button</Button>
-  </Container>
+    <>
+      <GlobalStyle />
+      <Container>
+        <SumiButton title='Normal Button'/>
+        <ButtonApp title='Primary Button'/>
+    </Container>
+  </>
   );
 }
 
