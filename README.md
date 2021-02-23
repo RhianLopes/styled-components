@@ -1,14 +1,14 @@
 # styled-components
 
-## Contexto
+## :satellite: Contexto
 
 Este repositório tem como objetivo guardar e documentar o conhecimento adquirido ao pesquisar mais sobre [styled-components](https://styled-components.com/), inicialmente os conteúdos desse repositório serão apresentados nas reuniões de padrões internas do time no qual participo.
 
-## Introdução
+## :mega: Introdução
 
 O [styled-components](https://styled-components.com/), que no momento em que está sendo criado este repositório, se encontra em sua [v5](https://github.com/styled-components/styled-components/releases) aqui no [GitHub styled-components](https://github.com/styled-components/styled-components), permite que você deixe de usar um arquivo separado para guardar seu `.css`, que será importado e utilizado em seu arquivo `.js`, deixando o seu `.css` em seu próprio arquivo `.js`. Assim, podendo componentizar, por exemplo, o css do seu componente no próprio arquivo JS de seu componente.
 
-## Instalação
+## :hammer: Instalação
 
 Para começar a usar o [styled-components](https://styled-components.com/), vamos criar um simples projeto [React JS](https://pt-br.reactjs.org/), para isso basta rodar o seguinte comando em seu terminal no local onde deseja guardar seu projeto:
 
@@ -44,7 +44,7 @@ $ npm start
 
 Automaticamente em seu navegador, abrirá no endereço http://localhost:3000/ o seu projeto ReactJS rodando :grin:
 
-## Usando Styled Components
+## :bookmark: Usando Styled Components
 
 Para fazer o uso dos styled-components, basta importar em seu arquivo `.js`:
 
@@ -94,6 +94,6 @@ Como resultado dos códigos acima temos os seguintes botões:
 
 Parabéns! esses são seus primeiros componentes estilizados! Agora você pode continuar testando e contribuindo com o repositório :grin:!!
 
-## Conclusão
+## :clapper: Conclusão
 
 Ao meu ver, o [styled-components](https://styled-components.com/) é uma tecnologia que possui diversas vantagens de se adicionar em seu projeto, ela é simples e facilita muito no dia a dia, pois, é escrita de uma forma muito simples e clara, um cenário perfeito para seus componentes agora ainda mais simples!
