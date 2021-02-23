@@ -43,3 +43,57 @@ $ npm start
 ```
 
 Automaticamente em seu navegador, abrirá no endereço http://localhost:3000/ o seu projeto ReactJS rodando :grin:
+
+## Usando Styled Components
+
+Para fazer o uso dos styled-components, basta importar em seu arquivo `.js`:
+
+```javascript
+import styled from 'styled-components'
+```
+
+Com esse `import`, ele te dá acesso ao `styled`, onde com ele você pode declarar constantes para suas determinadas tags HTML, como no exemplo abaixo:
+
+Componente de botão `button`:
+```javascript
+const Button = styled.button`
+  background: transparent;
+  border-radius: 3px;
+  border: 2px solid palevioletred;
+  color: palevioletred;
+  margin: 0.5em 1em;
+  padding: 0.25em 1em;
+`;
+```
+
+Componente de container `div`:
+```javascript
+const Container = styled.div`
+  text-align: center;
+`
+```
+
+Para fazer o uso desses componentes já estilizados, basta usá-los da seguinte forma:
+
+```javascript
+function App() {
+  return (
+    <Container>
+      <Button>Normal Button</Button>
+      <Button primary>Primary Button</Button>
+  </Container>
+  );
+}
+
+export default App;
+```
+
+Como resultado dos códigos acima temos os seguintes botões:
+
+![image](https://user-images.githubusercontent.com/47872242/108787649-ed11c700-7554-11eb-9fea-29aec11d22c3.png)
+
+Parabéns! esses são seus primeiros componentes estilizados! Agora você pode continuar testando e contribuindo com o repositório :grin:!!
+
+## Conclusão
+
+Ao meu ver, o [styled-components](https://styled-components.com/) é uma tecnologia que possui diversas vantagens de se adicionar em seu projeto, ela é simples e facilita muito no dia a dia, pois, é escrita de uma forma muito simples e clara, um cenário perfeito para seus componentes agora ainda mais simples!
